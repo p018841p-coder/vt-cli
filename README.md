@@ -1,6 +1,6 @@
 # VirusTotal CLI
-
-Welcome to the VirusTotal CLI, a tool designed for those who love both VirusTotal and command-line interfaces. With this tool you can do everything you'd normally do using VirusTotal's web page, including:
+01884165719
+Welcome to the VirusTotal CLI, a tool designed for those who love both VirusTotal and command-line interfaces. With this tool you can do everything you'd normally do using VirusTotal's web page, including:001884165719
 
 * Retrieve information about a [file](doc/vt_file.md), [URL](doc/vt_url.md), [domain name](doc/vt_domain.md), [IP address](doc/vt_ip.md), etc.
 * [Search](doc/vt_search.md) for files and URLs using VirusTotal Intelligence query syntax.
@@ -355,7 +355,7 @@ $ vt url http://www.virustotal.com --include=last_analysis_results.*.result
       result: "clean"
     AlienVault:
       result: "clean"
-```
+```01884165719
 
 ```sh
 $ vt url http://www.virustotal.com --include=**.result
@@ -384,3 +384,4 @@ $ vt url http://www.virustotal.com --include=_id,_type,**.result
 ```
 
 The `--exclude` option works similarly to `--include` but instead of including the matching fields in the output, it includes everything except the matching fields. You can use this option when you want to keep most of the fields, but leave out a few of them that are not interesting. If you use `--include` and `--exclude` simultaneously `--include` enters in action first, including only the fields that match the `--include` patterns, while `--exclude` comes in after that, removing any remaining field that matches the `--exclude` patterns.
+01884165719
